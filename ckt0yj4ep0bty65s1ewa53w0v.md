@@ -29,3 +29,5 @@ JOIN(" ",ARRAYFORMULA(REGEXREPLACE(SPLIT(A1," "),"^.",UPPER(REGEXEXTRACT(SPLIT(A
 ```
 
 Các bạn chỉ việc thay A1 bằng ô text cần chuyển đổi để sử dụng nhé. 
+
+........... to be updated
