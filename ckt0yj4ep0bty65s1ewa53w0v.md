@@ -1,16 +1,12 @@
 ## Những hàm hữu ích ở Google Sheet mà tôi tự viết
 
+Google Sheet cung cấp thư viện hàm có sẵn khá tiện ích cho người sử dụng. Tuy nhiên, để đáp ứng tốt được công việc thì cần kết hợp các hàm lại với nhau để xử lí.  
+
+Bài viết này tôi sẽ tổng hợp một số hàm tự viết mà có thể sẽ giúp các bạn hoàn thành được công việc của mình một cách hiệu quả hơn.
+
+Bắt đầu nhé!
 
 ## 1. Hàm viết hoa chữ cái đầu mỗi từ, áp dụng cho Tiếng Việt
-
-Để chuyển đổi chữ hoa chữ thường trong Google Sheet, ta có thể dùng các hàm UPPER và LOWER:
-
-```
-UPPER('forrest gump') // output: FORREST GUMP
-
-LOWER('FORREST GUMP') // output: forrest gump
-```
-
 
 Ngoài các hàm UPPER và LOWER, Google Sheet cung cấp 1 hàm PROPER dùng để viết hoa chữ cái đầu mỗi từ, rất hữu ích khi sử dụng để viết hoa tên người:
 
