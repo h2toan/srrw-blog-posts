@@ -20,7 +20,7 @@ Dở thay hàm này lại không hoạt động đúng với các kí tự tiế
 PROPER('đỗ phương thảo') // output: Đỗ Phương ThảO
 ```
 
-Tới công chuyện rồi đây. Để khắc phục nhược điểm này, tôi có viết 1 hàm, áp dụng chuẩn xác 100% đối với ngôn ngữ mẹ đẻ tôi:
+Tới công chuyện rồi đây ^^. Để khắc phục nhược điểm này, tôi dùng hàm SPLIT để tách đoạn text thành từng từ và dùng regex để viết hoa chữ cái đầu, sau đó lại nối lại bằng JOIN
 
 ```
 JOIN(" ",ARRAYFORMULA(REGEXREPLACE(SPLIT(A1," "),"^.",UPPER(REGEXEXTRACT(SPLIT(A1," "),"^.")))))
