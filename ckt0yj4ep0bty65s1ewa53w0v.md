@@ -1,6 +1,7 @@
 ## Những hàm hữu ích ở Google Sheet mà tôi tự viết
 
-## Hàm viết hoa chữ cái đầu mỗi từ, áp dụng cho tiếng việt
+
+## 1. Hàm viết hoa chữ cái đầu mỗi từ, áp dụng cho Tiếng Việt
 
 Để chuyển đổi chữ hoa chữ thường trong Google Sheet, ta có thể dùng các hàm UPPER và LOWER:
 
